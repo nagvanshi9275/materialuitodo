@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mui1 {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.dhoni {
+  border: 2.1px solid blue;
+  max-width: 170vw;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 120vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.japan {
+  height: 40px;
+  width: 60vw;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  justify-content: space-between; /* This will distribute the space between children */
+  max-width: 300vw;
+}
+
+.astro {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.side {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  column-gap: 20px;
+}
